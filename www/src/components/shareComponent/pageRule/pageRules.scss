@@ -1,0 +1,83 @@
+.pageFragWrapper {
+    font-weight: 300;
+    font-size: 12px;
+    color: #B5BDC6;
+    text-align: center;
+}
+
+.pageFragWrapper .sizeSwitch {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.pageFragWrapper .sizeSwitch>span>a {
+    width: 20px;
+    color: #344658;
+    text-decoration: underline;
+    margin: 0 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pageFragWrapper .sizeSwitch>ul {
+    position: absolute;
+    margin-left: 50px;
+    background: #eff0f2;
+    color: #344658;
+}
+
+.pageFragWrapper .numberSwitch {
+    display: inline-block;
+}
+
+.pageFragWrapper .numberSwitch>ul>li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pageFragWrapper .pagess,
+.pageFragWrapper .pages {
+    border-radius: 2px;
+    width: 25px;
+    line-height: 25px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.pageFragWrapper .pages.currentPage {
+    background: #5DD18D;
+    color: #FFF;
+}
+
+.pageFragWrapper .pages.currentPage:hover,
+.pageFragWrapper .pages:hover {
+    background: #83DFA8;
+    color: #fff;
+}
+
+.pageFragWrapper .firstPage {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.pageFragWrapper .prevPage {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.pageFragWrapper .nextPage {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.pageFragWrapper .lastPage {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.pageFragWrapper .firstPage:hover,
+.pageFragWrapper .prevPage:hover,
+.pageFragWrapper .nextPage:hover,
+.pageFragWrapper .lastPage:hover {
+    color: #83DFA8;
+}

@@ -1,0 +1,36 @@
+:global * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent; }
+
+:global body, :global html, :global #root, :global .containter {
+  width: 100%;
+  height: 100%; }
+
+:global ul li {
+  list-style: none; }
+
+:global a, :global button, :global input {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  -webkit-appearance: none; }
+
+:global textarea::-webkit-input-placeholder,
+:global input::-webkit-input-placeholder {
+  color: #BCC4C4; }
+
+:global textarea::-moz-input-placeholde,
+:global input::-moz-input-placeholder {
+  color: #BCC4C4; }
+
+:global textarea::-o-input-placeholder,
+:global input::-o-input-placeholder {
+  color: #BCC4C4; }
+
+:global .verticalCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
